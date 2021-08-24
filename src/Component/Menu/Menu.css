@@ -1,0 +1,17 @@
+.sideBar{
+    flex: .3;
+    border-right:1px solid var(--background-color);
+
+}
+
+.twitterIcon{
+    color:var(--twitter-color);
+    margin-left: 2rem;
+    size: 1000px;
+}
+.tweetBtn{
+    color:white !important;
+    font-weight: 800 !important;
+    border-radius:50px !important;
+    background-color:var(--twitter-color) !important;
+}
