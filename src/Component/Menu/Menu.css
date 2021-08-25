@@ -1,13 +1,15 @@
 .sideBar{
-    flex: .3;
+    flex: .25;
     border-right:1px solid var(--background-color);
+ 
+    padding-left:20px;
 
 }
 
 .twitterIcon{
     color:var(--twitter-color);
-    margin-left: 2rem;
-    size: 1000px;
+    margin-left: 1rem;
+    font-size: 70px !important;
 }
 .tweetBtn{
     color:white !important;

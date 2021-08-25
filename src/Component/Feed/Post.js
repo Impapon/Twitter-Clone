@@ -15,7 +15,7 @@ const Post = ({ displayName, userName, verified, text, image, avatar, }) => {
                     <div className="post-header">
                         <h3>{displayName}
                             <span >
-                                 {verified && <VerifiedUser className="varifiedIcon" />} <span className="userName">  @{userName} </span>
+                                 {verified || <VerifiedUser className="varifiedIcon" />} <span className="userName">  @{userName} </span>
                             </span>
                         </h3>
                     </div>
@@ -25,7 +25,6 @@ const Post = ({ displayName, userName, verified, text, image, avatar, }) => {
             <div className="post-text">
                 <p>{text}</p>
             </div>
-
 
             <img src={image} alt="" />
 
