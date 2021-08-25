@@ -28,7 +28,7 @@ const Feed = () => {
                     <Post
                         displayName={post.displayName}
                         userName={post.userName}
-                        verified={post.Verified}
+                        verified={post.verified}
                         text={post.text}
                         image={post.image}
                         avatar={post.avatar}
